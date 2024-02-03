@@ -1,0 +1,53 @@
+/*Green: rgb(25, 160, 47)  Blue:rgb(40, 101, 191) */
+body{
+    background-color: #efefef;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+#dark-mode-btn{ 
+    padding: 10px 5px;              
+    color: white;
+}
+
+.nav-btn{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px 5px;
+    text-decoration: none;
+}
+
+.dark-mode{
+    background-color: orange;
+}
+
+.btn-blue{
+    background-color: rgb(40, 101, 191);
+}
+
+.btn-active{
+    background-color: rgb(25, 160, 47);
+}
+
+.invert-colors{
+    filter: invert(100%);
+}
+
+
+
+
+
+
+
+
+
+
+/*
+deprecated
+*/
+/* .btn{ */
+    /* Note: all btn will have this styling! */
+    /* background-color: rgb(40, 101, 191); */
+/* } */
